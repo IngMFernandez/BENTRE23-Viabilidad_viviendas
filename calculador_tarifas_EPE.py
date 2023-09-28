@@ -85,7 +85,7 @@ def macro_armadora_de_subtablas(lista_de_datos_extraidos,diccionario_de_posicion
             logging.debug(diccionario_a_retornar)
     return  diccionario_a_retornar
 
-os.chdir(os.path.join('.','pruebas_tarifas'))
+os.chdir(os.path.join('.','db'))
 logging.debug('Estoy en la carpeta '+os.getcwd())
  
 diccionario_a_guardar={}
