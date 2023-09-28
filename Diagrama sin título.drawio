@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T13:28:42.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XYxNhlQPoMU1g7ElCfje" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-28T13:40:51.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bk1YbCzHx-VeTFFHVfZT" version="21.3.6" type="github">
   <diagram name="Página-1" id="Urwu7qwTcOLkvCBN5Y3i">
-    <mxGraphModel dx="8580" dy="6349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-mFsq0soXuWweNvaHCEV-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF0000;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1">
+        <mxCell id="-mFsq0soXuWweNvaHCEV-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#FF0000;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" target="-mFsq0soXuWweNvaHCEV-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="259.13" as="targetPoint" />
-            <mxPoint x="30" y="259.13" as="sourcePoint" />
+            <mxPoint x="40" y="358" as="targetPoint" />
+            <mxPoint x="-350" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="720" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-mFsq0soXuWweNvaHCEV-6" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-1" target="-mFsq0soXuWweNvaHCEV-8">
@@ -53,7 +56,7 @@
           <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-mFsq0soXuWweNvaHCEV-5" value="A partir de un input del usuario, localizacion de la carpeta de archivos csv" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="30" y="199.13" width="120" height="30" as="geometry" />
+          <mxGeometry x="-290" y="660" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-mFsq0soXuWweNvaHCEV-7" value="Lista de python que ordena los archiuvos de csv en filas por columna" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="430" y="240" width="190" height="30" as="geometry" />
@@ -85,8 +88,20 @@
         <mxCell id="-mFsq0soXuWweNvaHCEV-9" value="Diccionario de python que solo tiene marcados los niveles de usario, cada diccionario por nivel está vacío" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="760" y="220" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-mFsq0soXuWweNvaHCEV-12" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="90" y="320" width="120" height="80" as="geometry" />
+        <mxCell id="-mFsq0soXuWweNvaHCEV-63" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;exitX=0.82;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-12" target="-mFsq0soXuWweNvaHCEV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-12" target="-mFsq0soXuWweNvaHCEV-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579.9999999999995" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-12" value="por cada archivo csvencontrado en la carpeta destino" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry y="680" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-mFsq0soXuWweNvaHCEV-14" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-13" target="-mFsq0soXuWweNvaHCEV-20">
           <mxGeometry relative="1" as="geometry">
@@ -276,10 +291,8 @@
         <mxCell id="-mFsq0soXuWweNvaHCEV-48" value="Diccionario de python que por cada nivel indica cuantos espacios en blanco hay en el csv desde el nivel seleccionado hasta la aparicion del próximo nivel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="2535" y="120" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-mFsq0soXuWweNvaHCEV-60" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5053.333333333333" y="268" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-65" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-49" target="-mFsq0soXuWweNvaHCEV-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-mFsq0soXuWweNvaHCEV-49" value="funcion:&lt;br&gt;macro_armadora_de_subtablas" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="4430" y="208" width="240" height="120" as="geometry" />
@@ -299,8 +312,29 @@
         <mxCell id="-mFsq0soXuWweNvaHCEV-59" value="Diccionario de python indicando cada nivel, dentro de cada nivel existe un diccionario vacío indexado por el sub_nivel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="4160" y="328" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-mFsq0soXuWweNvaHCEV-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5180" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="-mFsq0soXuWweNvaHCEV-66" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;entryX=0.872;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-61" target="-mFsq0soXuWweNvaHCEV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5270" y="270" />
+              <mxPoint x="5270" y="910" />
+              <mxPoint x="105" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-61" value="Agregar el diccionario obtenido en el macro diccionario a guardar" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5020" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=1;" edge="1" parent="1" source="-mFsq0soXuWweNvaHCEV-68" target="-mFsq0soXuWweNvaHCEV-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-68" value="pasar el diccioanrio obtenido a un archivo py" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="680" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mFsq0soXuWweNvaHCEV-71" value="fin" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="940" y="680" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
